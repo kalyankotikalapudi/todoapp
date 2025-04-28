@@ -1,4 +1,5 @@
 Approach
+
 •	So here I have created a factory class to handle provider selection
 •	Created two concrete classes Provider A and Provider B which implement ITodoProviderInterface
 •	ProviderA and ProviderB have similar methods but in future different providers can use different databases, external services, or custom logic,
